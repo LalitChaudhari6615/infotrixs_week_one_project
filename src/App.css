@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+.author-container {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px; /* Adjust the margin-right value as needed */
+}
+
+body {
+  background-color: #FFDAB9; /* Light blue background color */
+  font-family: Arial, sans-serif;
+  color: #333333; /* Dark gray text color */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #FF4500; /* Orange background color */
+  color: #fff; /* White text color */
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+/* App.css */
+.quote-box {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2; /* Light grey background color */
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px #333333; /* Dark shadow around the quote box */
+}
+.quote-content {
+  font-size: 20px; /* Adjust the font size as needed */
+  font-family: Arial, sans-serif; /* Replace with your desired font-family */
+  font-style: italic; /* Italic font style */
+}
+
+.quote strong {
+  font-weight: bold;
+  display: block;
+  color: #00008B; /* Dark blue author name color */
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.search-box {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-input {
+  width: 15%; /* Adjust the width as needed, for example, 50% for a narrower input box */
+  padding: 10px;
+  border: 2px solid #FFA500; /* Orange border color */
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.search-button {
+  background-color:#FF4500;
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #FFB48C;
+}
